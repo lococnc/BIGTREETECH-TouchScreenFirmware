@@ -25,7 +25,7 @@
  *
  * Default value is: 1 for LED_OFF
 */
-#define STARTUP_KNOB_LED_COLOR 0         // LED_OFF
+#define STARTUP_KNOB_LED_COLOR 6         // LED_OFF
 #define KEEP_KNOB_LED_COLOR_MARLIN_MODE  // Keeps the LED state in Marlin Mode
 
 /**
@@ -46,7 +46,7 @@
  */
 #define DEFAULT_LCD_BRIGHTNESS      11  // 11: LCD_100_PERCENT - Brightness value from list
 #define DEFAULT_LCD_IDLE_BRIGHTNESS 3   // 3: LCD_10_PERCENT - Brightness value from list
-#define DEFAULT_LCD_IDLE_TIMER      0   // 0: LCD_DIM_OFF
+#define DEFAULT_LCD_IDLE_TIMER      6   // 0: LCD_DIM_OFF
 #define LCD_DIM_CUSTOM_SECONDS      600 // Custom value in seconds. Will be used if LCD_DIM_CUSTOM_SECONDS is set as idle timer.
 
 //===========================================================================
@@ -73,14 +73,14 @@
 /**
  * show banner text at the top of the TFT in Marlin Mode.
  */
-#define MARLIN_SHOW_BANNER  true //to enabled: true | to disabled: false
+#define MARLIN_SHOW_BANNER  false //to enabled: true | to disabled: false
 /**
  * Run Marlin Mode in Fullscreen
  *
  * Options:  0: Disabled. RECOMMENDED FOR TFT24
  *           1: Enabled Marlin Fullscreen mode.
  */
-#define DEFAULT_ST7920_FULLSCREEN_MODE 0 // 0: Disabled. RECOMMENDED FOR TFT24
+#define DEFAULT_ST7920_FULLSCREEN_MODE 1 // 0: Disabled. RECOMMENDED FOR TFT24
 
 /**
  * Keep Serial always On (ONLY SUPPORTED ON TFT24 V1.1, TFT35 V3.0, AND TFT28 V3.0)
@@ -91,7 +91,7 @@
  *
  * Options:  0: Disabled    1: Enabled
  */
-#define SERIAL_ALWAYS_ON 0  // Default: 0 (Disabled)
+#define SERIAL_ALWAYS_ON 1  // Default: 0 (Disabled)
 
 //===========================================================================
 //========================== Touch Mode Settings ============================
@@ -219,7 +219,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 235
 #define Y_MAX_POS 235
-#define Z_MAX_POS 250
+#define Z_MAX_POS 300
 
 // Specify a pause position as { X, Y, Z_raise }
 #define NOZZLE_PAUSE_RETRACT_LENGTH 15   // (mm)
