@@ -215,11 +215,11 @@
 
 // Size of machine
 #define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define Y_MIN_POS -15
 #define Z_MIN_POS 0
-#define X_MAX_POS 235
-#define Y_MAX_POS 235
-#define Z_MAX_POS 300
+#define X_MAX_POS 239
+#define Y_MAX_POS 246
+#define Z_MAX_POS 320
 
 // Specify a pause position as { X, Y, Z_raise }
 #define NOZZLE_PAUSE_RETRACT_LENGTH 15   // (mm)
