@@ -56,6 +56,7 @@
     #define STRING_BLTOUCH_REPEAT         "精度测试"
     #define STRING_Z_OFFSET               "Z-偏移量"
     #define STRING_PROBE_OFFSET           "探针偏移量"
+    #define STRING_HOME_OFFSET            "Home Offset"
     #define STRING_CONFIRMATION           "Are you sure?"
     #define STRING_DOWN                   "降低"
     #define STRING_UP                     "抬升"
@@ -211,6 +212,7 @@
     #define STRING_RETRACT_ACCELERATION   "回抽加速度"
     #define STRING_TRAVEL_ACCELERATION    "空载加速度"
     #define STRING_JERK                   "Jerk"
+    #define STRING_JUNCTION_DEVIATION     "Junction Deviation"
     #define STRING_BUMP_SENSITIVITY       "TMC堵转检测灵敏度"
     #define STRING_FWRETRACT              "FW Retraction"
     #define STRING_FWRECOVER              "FW Retraction Recover"
@@ -272,5 +274,8 @@
     #define STRING_OFFSET_TOOL            "Offset 2nd Nozzle"
     #define STRING_HYBRID_THRESHOLD       "TMC HybridThreshold"
     #define STRING_NOTIFICATIONS          "Notifications"
+    #define STRING_MESH_EDITOR            "Mesh edit"
+    #define STRING_MESH_TUNER             "Mesh tuner"
+    #define STRING_CASE_LIGHT             "Case light"
 
 #endif

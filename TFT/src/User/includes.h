@@ -65,6 +65,9 @@
 #include "SpeedControl.h"
 #include "BabystepControl.h"
 #include "ProbeOffsetControl.h"
+#include "ProbeHeightControl.h"
+#include "HomeOffsetControl.h"
+#include "CaseLightControl.h"
 
 #include "extend.h"
 #include "menu.h"
@@ -116,6 +119,9 @@
 #include "Pid.h"
 #include "TuneExtruder.h"
 #include "ConnectionSettings.h"
+#include "MeshTuner.h"
+#include "MeshEditor.h"
+#include "CaseLight.h"
 
 #define MAX_MENU_DEPTH 10       // max sub menu depth
 typedef void (*FP_MENU)(void);

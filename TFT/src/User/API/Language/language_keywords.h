@@ -63,6 +63,7 @@ extern "C" {
 #define LANG_KEY_BLTOUCH_REPEAT               "label_bltouch_repeat:"
 #define LANG_KEY_Z_OFFSET                     "label_z_offset:"
 #define LANG_KEY_PROBE_OFFSET                 "label_probe_offset:"
+#define LANG_KEY_HOME_OFFSET                  "label_home_offset:"
 #define LANG_KEY_CONFIRMATION                 "label_confirmation:"
 #define LANG_KEY_DOWN                         "label_down:"
 #define LANG_KEY_UP                           "label_up:"
@@ -218,6 +219,7 @@ extern "C" {
 #define LANG_KEY_RETRACT_ACCELERATION         "label_retract_acceleration:"
 #define LANG_KEY_TRAVEL_ACCELERATION          "label_travel_acceleration:"
 #define LANG_KEY_JERK                         "label_jerk:"
+#define LANG_KEY_JUNCTION_DEVIATION           "label_junction_deviation:"
 #define LANG_KEY_BUMP_SENSITIVITY             "label_bump_sensitivity:"
 #define LANG_KEY_FWRETRACT                    "label_fwretract:"
 #define LANG_KEY_FWRECOVER                    "label_fwrecover:"
@@ -279,7 +281,9 @@ extern "C" {
 #define LANG_KEY_OFFSET_TOOL                  "label_offset_tool:"
 #define LANG_KEY_HYBRID_THRESHOLD             "label_hybrid_threshold:"
 #define LANG_KEY_NOTIFICATIONS                "label_notifications:"
-
+#define LANG_KEY_MESH_EDITOR                  "label_mesh_editor:"
+#define LANG_KEY_MESH_TUNER                   "label_mesh_tuner:"
+#define LANG_KEY_CASE_LIGHT                   "label_case_light:"
 
 #ifdef __cplusplus
 }

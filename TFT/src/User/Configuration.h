@@ -269,7 +269,7 @@
 #define ENABLE_BL_VALUE 1
 
 /**
- * Enable friendly probe offset language.
+ * Enable friendly probe offset language
  *
  * Decrease/increase and "-" & "+" icons are replaced with down/up and friendly icons
  *
@@ -323,12 +323,68 @@
 #define PROBE_OFFSET_DEFAULT_VALUE 0.0f
 
 /**
+ * Home Offset
+ */
+#define HOME_Z_OFFSET_MIN_VALUE     -20.0f
+#define HOME_Z_OFFSET_MAX_VALUE     20.0f
+#define HOME_Z_OFFSET_DEFAULT_VALUE 0.0f
+
+/**
  * Babystep
  */
 #define BABYSTEP_MIN_VALUE     -5.0f
 #define BABYSTEP_MAX_VALUE     5.0f
 #define BABYSTEP_DEFAULT_VALUE 0.0f
 #define BABYSTEP_MAX_UNIT      1.0f
+
+/**
+ * Mesh Editor settings
+ */
+
+// Set the maximum number of grid points per dimension
+//
+// NOTE: It must be in range 1 - 15
+//
+#define MESH_GRID_MAX_POINTS_X 10
+#define MESH_GRID_MAX_POINTS_Y 10
+
+// Set the color used for drawing the mesh with the minimun and maximum value in the grid
+//
+// Options: 0: WHITE,      1: BLACK,       2: RED,     3: GREEN,     4: BLUE,   5: CYAN,
+//          6: MAGENTA,    7: YELLOW,      8: ORANGE,  9: PURPLE,   10: LIME,  11: BROWN,
+//         12: DARKBLUE,  13: DARKGREEN,  14: GRAY,   15: DARKGRAY
+//
+#define MESH_MIN_COLOR 7
+#define MESH_MAX_COLOR 2
+
+// Enable keyboard drawn on left side
+//
+// If disabled, the keyboard is drawn on right side
+//
+// Options:  0: Disabled    1: Enabled
+//
+#define MESH_LEFT_KEYBOARD 0
+
+/**
+ * Terminal settings
+ */
+
+// Enable keyboard color layout for the Terminal menu
+//
+// If standard, the keyboard is drawn using the standard configurable background and font colors.
+// If alternative, the keyboard is drawn using the alternative embedded colors (white and black colors).
+//
+// Options:  0: standard 1    1: standard 2    2: alternative
+//
+#define TERMINAL_KEYBOARD_COLOR_LAYOUT 0
+
+// Enable keyboard QWERTY layout for the Terminal menu with at least 10 columns
+//
+// If enabled, the QWERTY keyboard layout is used
+//
+// Options:  0: Disabled    1: Enabled
+//
+#define TERMINAL_KEYBOARD_QWERTY_LAYOUT 1
 
 /**
  * PID autotune
